@@ -1,0 +1,5 @@
+val a = List(10, 20, 30, 40, 10)
+a.filter((i: Int) => i < 25)
+a.filter((i) => i < 25)
+a.filter(i => i < 25)
+a.filter( _ < 25)
