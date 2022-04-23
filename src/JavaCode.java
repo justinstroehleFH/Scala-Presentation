@@ -8,7 +8,6 @@ import java.util.*;
 
 public class JavaCode {
     // List
-    /*
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
         list.add("1");
@@ -22,29 +21,78 @@ public class JavaCode {
             ints.add(Integer.parseInt(s));
         }
     }
-     */
 
-    // Class
-    class Student{
+
+    public class User {
+        private String name;
+        private List<Order> orders;
+
+        public User() {
+            orders = new ArrayList<Order>();
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public List<Order> getOrders() {
+            return orders;
+        }
+
+        public void setOrders(List<Order> orders) {
+            this.orders = orders;
+        }
+    }
+
+    public class Order {
         private int id;
-        private String course;
+        private List<Product> products;
 
-        public int getId(){
-            return this.id;
+        public Order() {
+            products = new ArrayList<Product>();
         }
 
-        public String getCourse(){
-            return this.course;
+        public int getId() {
+            return id;
         }
 
-        public void setId(int id){
-            if(id != 0){
-                this.id = id;
-            }
+        public void setId(int id) {
+            this.id = id;
         }
 
-        public void setCourse(String course){
-            this.course = course;
+        public List<Product> getProducts() {
+            return products;
+        }
+
+        public void setProducts(List<Product> products) {
+            this.products = products;
+        }
+    }
+
+    public class Product {
+        private int id;
+        private String category;
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public String getCategory() {
+            return category;
+        }
+
+        public void setCategory(String category) {
+            this.category = category;
         }
     }
 }
+
+

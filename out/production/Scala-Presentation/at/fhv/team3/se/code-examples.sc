@@ -1,6 +1,4 @@
 // Pattern Matching
-println("test")
-
 
 // Lambda expressions
 val a = List(10, 20, 30, 40, 10)

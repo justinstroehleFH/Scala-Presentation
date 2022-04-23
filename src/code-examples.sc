@@ -44,3 +44,4 @@ println(student.id + ": " + student.course)
 case class StudentC(id: Int, course: String)
 var studentC = new StudentC(2, "Accounting")
 println(studentC.id + ": " + studentC.course)
+
