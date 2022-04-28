@@ -1,11 +1,3 @@
-// Map
-val salaries = List(1000, 3000, 5000)
-val increase = (x: Int) => x * 1.1
-val newSalaries1 = salaries.map(increase)
-// shorten
-val newSalaries2 = salaries.map(x => x * 1.1)
-val newSalaries3 = salaries.map(_ * 1.1)
-
 // Coercing methods into functions
 case class WeeklyWeatherForecast(temperatures: List[Double]) {
 
@@ -66,7 +58,21 @@ val query = "id=1"
 val http = getURLhttp(endpoint, query)
 val https = getURLhttps(endpoint, query)
 
-// Further Functions for a list
-var list = List(10, 20, 30, 40, 10)
-list.dropWhile(_ < 25)
-list.sortWith(_ > _)
+val result = urlBuilder(ssl = false, domainName)(endpoint, query)
+
+
+
+
+
+//// Further Functions for a list
+//var list = List(10, 20, 30, 40, 10)
+//list.dropWhile(_ < 25)
+//list.sortWith(_ > _)
+//
+//// Map
+//val salaries = List(1000, 3000, 5000)
+//val increase = (x: Int) => x * 1.1
+//val newSalaries1 = salaries.map(increase)
+//// shorten
+//val newSalaries2 = salaries.map(x => x * 1.1)
+//val newSalaries3 = salaries.map(_ * 1.1)

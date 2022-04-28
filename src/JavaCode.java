@@ -13,6 +13,10 @@ import java.util.stream.Collectors;
 
 public class JavaCode {
 
+    public static void test(){
+        System.out.println("Test...");
+    }
+
     // Lambda
 //    public class Lambda {
 //        JButton button = new JButton();
@@ -29,6 +33,19 @@ public class JavaCode {
 //            event -> System.out.println("Method Body")
 //        )
 //    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // List
     public static void main(String[] args) {

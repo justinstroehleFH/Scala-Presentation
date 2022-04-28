@@ -1,3 +1,17 @@
+at.fhv.team3.se.JavaCode.test()
+
+// currying
+def sum = (x: Int, y: Int) => x + y
+def currySum(x: Int)(y: Int): Int = x + y
+
+sum(1, 2)
+currySum(1)(2)
+
+
+
+
+
+
 // Pattern Matching
 
 // Lambda expressions

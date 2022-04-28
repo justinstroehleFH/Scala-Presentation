@@ -9,7 +9,7 @@ x match {
   case _ => "other"
 }
 
-//pattern matching with functions
+//pattern matching with functions/methods
 //def matchTest(x: Int): String = x match {
 //  case 1 => "one"
 //  case 2 => "two"

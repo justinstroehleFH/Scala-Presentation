@@ -1,3 +1,15 @@
+import at.fhv.team3.se.JavaCode
+import at.fhv.team3.se.JavaCode.test
+
+test()
+
+
+
+
+
+
+
+
 // Pattern Matching
 
 // Lambda expressions
