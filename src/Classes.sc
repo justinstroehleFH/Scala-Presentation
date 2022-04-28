@@ -34,4 +34,5 @@ val point1 = new Point(2, 3)
 //
 //val point1 = new Point
 //point1.x = 99
+//println(point1.x)
 //point1.y = 101 // prints the warning

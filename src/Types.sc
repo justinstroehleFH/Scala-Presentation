@@ -1,8 +1,10 @@
-val x: Long = 987654321
-val y: Float = x  // 9.8765434E8 (note that some precision is lost in this case)
+5.+(3)
 
-val c: Char = 'A'
-val number: Int = c  // 65
+val value = 5
+//value = 6 //will not compile
+
+var variable = 5
+//variable = 2 //will compile
 
 var u: Unit = ()
 
@@ -14,3 +16,10 @@ val list: List[Any] = List(
   true, // a boolean value
   addOne
 )
+
+//casting
+val x: Long = 987654321
+val y: Float = x  // 9.8765434E8 (note that some precision is lost in this case)
+
+val c: Char = 'A'
+val number: Int = c  // 65
